@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sheryl-toh-resume-v2/static/css/main.5f361e03.chunk.css",
+    "main.js": "/sheryl-toh-resume-v2/static/js/main.86cc5658.chunk.js",
+    "main.js.map": "/sheryl-toh-resume-v2/static/js/main.86cc5658.chunk.js.map",
+    "runtime-main.js": "/sheryl-toh-resume-v2/static/js/runtime-main.64503bea.js",
+    "runtime-main.js.map": "/sheryl-toh-resume-v2/static/js/runtime-main.64503bea.js.map",
+    "static/js/2.223c3804.chunk.js": "/sheryl-toh-resume-v2/static/js/2.223c3804.chunk.js",
+    "static/js/2.223c3804.chunk.js.map": "/sheryl-toh-resume-v2/static/js/2.223c3804.chunk.js.map",
+    "index.html": "/sheryl-toh-resume-v2/index.html",
+    "precache-manifest.a9ee093f2d85fa51419d1c6f9f77bdeb.js": "/sheryl-toh-resume-v2/precache-manifest.a9ee093f2d85fa51419d1c6f9f77bdeb.js",
+    "service-worker.js": "/sheryl-toh-resume-v2/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/sheryl-toh-resume-v2/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.223c3804.chunk.js.LICENSE.txt": "/sheryl-toh-resume-v2/static/js/2.223c3804.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/sheryl-toh-resume-v2/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64503bea.js",
+    "static/js/2.223c3804.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.86cc5658.chunk.js"
+  ]
+}
