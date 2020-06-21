@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sheryl-toh-resume-v2/precache-manifest.a9ee093f2d85fa51419d1c6f9f77bdeb.js"
+  "/sheryl-toh-resume-v2/precache-manifest.7a4825df5f6c889356a7035fdf93a45a.js"
 );
 
 self.addEventListener('message', (event) => {
