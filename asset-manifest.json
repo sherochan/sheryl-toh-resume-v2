@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/sheryl-toh-resume-v2/static/css/main.a2a92705.chunk.css",
-    "main.js": "/sheryl-toh-resume-v2/static/js/main.4595c540.chunk.js",
-    "main.js.map": "/sheryl-toh-resume-v2/static/js/main.4595c540.chunk.js.map",
-    "runtime-main.js": "/sheryl-toh-resume-v2/static/js/runtime-main.64503bea.js",
-    "runtime-main.js.map": "/sheryl-toh-resume-v2/static/js/runtime-main.64503bea.js.map",
-    "static/js/2.2984e7ab.chunk.js": "/sheryl-toh-resume-v2/static/js/2.2984e7ab.chunk.js",
-    "static/js/2.2984e7ab.chunk.js.map": "/sheryl-toh-resume-v2/static/js/2.2984e7ab.chunk.js.map",
-    "index.html": "/sheryl-toh-resume-v2/index.html",
-    "precache-manifest.8014eb142c2260e8ffa3a2fecc99f55a.js": "/sheryl-toh-resume-v2/precache-manifest.8014eb142c2260e8ffa3a2fecc99f55a.js",
-    "service-worker.js": "/sheryl-toh-resume-v2/service-worker.js",
-    "static/css/main.a2a92705.chunk.css.map": "/sheryl-toh-resume-v2/static/css/main.a2a92705.chunk.css.map",
-    "static/js/2.2984e7ab.chunk.js.LICENSE.txt": "/sheryl-toh-resume-v2/static/js/2.2984e7ab.chunk.js.LICENSE.txt",
-    "static/media/img_resume.png": "/sheryl-toh-resume-v2/static/media/img_resume.a4544eff.png"
+    "main.css": "/static/css/main.a2a92705.chunk.css",
+    "main.js": "/static/js/main.4595c540.chunk.js",
+    "main.js.map": "/static/js/main.4595c540.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fcbb3ec5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fcbb3ec5.js.map",
+    "static/js/2.2984e7ab.chunk.js": "/static/js/2.2984e7ab.chunk.js",
+    "static/js/2.2984e7ab.chunk.js.map": "/static/js/2.2984e7ab.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.19c82a3a8c9a34c37ba13065223d2a52.js": "/precache-manifest.19c82a3a8c9a34c37ba13065223d2a52.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a2a92705.chunk.css.map": "/static/css/main.a2a92705.chunk.css.map",
+    "static/js/2.2984e7ab.chunk.js.LICENSE.txt": "/static/js/2.2984e7ab.chunk.js.LICENSE.txt",
+    "static/media/img_resume.png": "/static/media/img_resume.a4544eff.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.64503bea.js",
+    "static/js/runtime-main.fcbb3ec5.js",
     "static/js/2.2984e7ab.chunk.js",
     "static/css/main.a2a92705.chunk.css",
     "static/js/main.4595c540.chunk.js"
