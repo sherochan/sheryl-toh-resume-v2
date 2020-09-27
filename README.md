@@ -1,6 +1,6 @@
 ## Online Resume
 This is a project for me to get familiarize with React.js . 
-Check out the website at [sheryltoh.com](sheryltoh.com)
+Check out the website at [sheryltoh.com](https://sheryltoh.com)
 
 
 ## How to run
