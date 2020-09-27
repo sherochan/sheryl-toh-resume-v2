@@ -12,28 +12,29 @@ const EXPERIENCES = pageConstants.EXPERIENCE
 
 
 export class ExperiencePage extends React.Component{
+    constructor(props) {
+        super(props);
+
+    }
     render() {
-
-
         return (
-            
-            <div className="sub-page">
-                {
-                    EXPERIENCES.map( experience =>
-                        <TimeLine
-                        showCurrent={experience.CURRENT}
-                        companyName={experience.COMPANY}
-                        headerName={experience.ROLE}
-                        description={experience.DESCRIPTION}
-                        startDate={experience.STARTDATE}
-                        endDate={experience.ENDDATE}
-                        />
-                        )
-                }
-                
-                
-            </div>
+            <div>
 
+                <div className="sub-page">
+                    {
+                        EXPERIENCES.map( experience =>
+                            <TimeLine
+                            showCurrent={experience.CURRENT}
+                            companyName={experience.COMPANY}
+                            headerName={experience.ROLE}
+                            description={experience.DESCRIPTION}
+                            startDate={experience.STARTDATE}
+                            endDate={experience.ENDDATE}
+                            />
+                            )
+                    }
+                </div>
+            </div>
         )
     }
 }

@@ -1,3 +1,26 @@
+@media screen and (max-width: 600px) {
+    .main-page {
+        width: 100% !important; 
+        float: none !important;
+        padding-top: 100px !important;
+    }
+    .horizontal-line {
+        width: 100% !important; 
+        float: none !important;
+
+    }
+    .main-page p{ 
+        width: 100% !important;
+        letter-spacing: 1.2px !important;
+        line-height: 2 !important;
+
+        
+    }
+    .img {
+        display: none;
+    }
+}
+
 .main-page {
     width: 40%;
     float: left;
@@ -18,4 +41,13 @@ div img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.horizontal-line {
+    display: flex;
+    border-top: 1.25px solid black;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding-top: 50px;
+    width: 80%;
 }

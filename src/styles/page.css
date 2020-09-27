@@ -1,6 +1,17 @@
 .sub-page {
     float: right;
     width: 58%;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.mobile-img {
+    display: none;
 }
 
 .sub-page div{
@@ -11,6 +22,7 @@
 .sub-page-home {
     padding: 170px 0;
 }
+
 
 .sub-page-home-greetings {
     display: inline-block;
@@ -53,8 +65,6 @@
 .row-education {
     width: 100%;
     text-align: left;
-    padding-top: 40px;
-    /* border: solid red; */
 
 }
 
@@ -62,38 +72,82 @@
     margin: 0 auto ;
     display: inline-block;
     overflow: auto;
-    /* text-align: left; */
-    /* min-height: 20px;    */
-    
-
 }
 
 .left {
     width:50%;
-    /* border: solid blue; */
-
 }
 
 .date {
     width: 40%;
     float: right;
-    /* border: solid aqua; */
     padding-top: 25px;
     text-align: center;
     color: grey;
 }
 
+.icons-container {
+    width: 100%;
+
+}
+
 .icon-container {
-    /* border: solid red; */
-    text-align: center;
-    padding-top: 200px;
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.leaf-icon-container {
+    width: 50%;
+    display: inline-block;
+    overflow: auto;
+
+}
+
+.years-active-container {
+    width: 30%;
+    padding-right: 5px;
+    color: grey;
+    float: right;
+    padding-top: 5px;
+    overflow: auto;
+}
+
+.skill-description-container {
+    padding-right: 10px;
+    overflow: auto;
 }
 
 .contact {
     width: 70%;
     margin-top: 150px;
-    /* border: solid grey; */
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
+}
+
+@media screen and (max-width: 600px) {
+    .sub-page{
+        width: 100%;
+        letter-spacing: 0.9px !important;
+        line-height: 2.1 !important;
+        font-weight: italic !important;
+    }
+    .mobile-img {
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+    }
+
+    .sub-page-home {
+        padding: 50px 0;
+    }
+    .sub-page-home-greetings {
+        display: none;
+    }
+    .icons-container {
+        padding-left: 10px;
+    }
 }

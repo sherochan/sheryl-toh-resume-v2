@@ -14,7 +14,6 @@ export class TimeLine extends React.Component{
             description,
             startDate,
             endDate
-
         } = this.props;
         return (
             <div className="row">

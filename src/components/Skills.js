@@ -1,28 +1,73 @@
 import React from 'react';
 import '../styles/page.css'
-import {FaPython, FaReact, FaDocker, FaRProject, FaJava, FaGitAlt} from "react-icons/fa"
+import { NumExperience } from "./NumExperience.js"
 // import ReactGA from 'react-ga'
 
 // const trackingId = 'UA-131338203-2'
 // ReactGA.initialize(trackingId);
 
 export class SkillsPage extends React.Component{
-    render() {
-        return (
-            <div className="sub-page">
-                <div className="icon-container">
-                    <FaPython size={42}/> <strong>Python &nbsp; </strong> &nbsp;
-                    <FaDocker size={42}/> <strong>Docker &nbsp; </strong> &nbsp;
-                    <FaGitAlt size={42}/> <strong>Git &nbsp;</strong> &nbsp;
-                    <FaReact size={42}/> <strong>React &nbsp; </strong> &nbsp;
-                    <FaRProject size={42}/> <strong>R &nbsp;</strong> &nbsp;
-                    <FaJava size={42}/> <strong>Java &nbsp;</strong> &nbsp;
-                    
-                
-                </div>
-                
-            </div>
+    constructor(props) {
+        super(props);
 
+    }
+    render() {
+
+        return (
+            <div>
+                <div className={"sub-page"}>
+                    <div className={"icons-container"}>
+                        <NumExperience 
+                                skillName={"Python"} 
+                                yearsActive={"2015 - "}
+                                nYears={0}
+                                skillsDescription={"Experience in using various machine learning (ML) libraries, as well as being familiar with using Python as a backend language for building API endpoints and for Database connections in order to productionize ML pipelines."}
+                        />
+
+                        <NumExperience 
+                            skillName={"Amazon Web Services (AWS)"} 
+                            yearsActive={"2019 - "}
+                            nYears={0}
+                            skillsDescription={"Experience in using AWS such as S3, ECR, EC2 for ML pipelines during deployment."}
+                        />
+
+                        <NumExperience 
+                            skillName={"Git"} 
+                            yearsActive={"2019 - "}
+                            nYears={0}
+                            skillsDescription={"Familiar with using Git for version control and collaboration between team members."}
+                        />
+
+                        <NumExperience 
+                                skillName={"Docker"} 
+                                yearsActive={"2019 - "}
+                                nYears={0}
+                                skillsDescription={"Familiar with using Docker to containerize ML pipelines for better integration with other services."}
+                        />
+            
+                        <NumExperience 
+                            skillName={"React"} 
+                            yearsActive={"2019 - "}
+                            nYears={0}
+                            skillsDescription={"Experience in using React to build the front end of a service for triggering ML pipelines."}
+                        />
+
+                        <NumExperience 
+                            skillName={"R"} 
+                            yearsActive={"2016 - 2018"}
+                            nYears={0}
+                            skillsDescription={"Exposure in using R for statistical modelling and R Shiny in building interactive web applications."}
+                        />
+
+                        <NumExperience 
+                            skillName={"Java"} 
+                            yearsActive={"2016 - 2017"}
+                            nYears={0}
+                            skillsDescription={"Enrolled in modules back in NUS School of Computing that taught Data Structure and Algorithms using Java."}
+                        />
+                    </div>    
+                </div>  
+            </div>
         )
     }
 }

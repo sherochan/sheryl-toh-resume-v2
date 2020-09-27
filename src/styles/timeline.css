@@ -64,3 +64,13 @@
 .dateperiod {
     min-height: 15px;
 }
+
+@media screen and (max-width: 600px) {
+    .main {
+        width: 100%;
+    }
+    .col {
+        display: block !important;
+        width: 90%;
+    }
+}
