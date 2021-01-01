@@ -14,7 +14,9 @@ In the project directory, you can run:
 ## Fixes
 - make it more mobile friendly
 - tidy up codes
+- Changed router from BrowserRouter to HashRouter for a quick fix on the refreshing routing issue
+- change favicon
 
 ## Issues
-- refreshing it does not work. To change the router used
+-  Using hashrouter might affect SEO, refer to https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writing-manually 
 
