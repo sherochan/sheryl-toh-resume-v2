@@ -1,5 +1,6 @@
 import React, { useEffect, useState} from 'react';
-import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, NavLink, Switch } from 'react-router-dom';
 import "../styles/layout.css";
 // routes
 import { HomePage } from './Home.js';
@@ -32,7 +33,7 @@ export class NavBar extends React.Component{
             hamburgerClick
         } = this.state;
         return (
-            <Router basename="/sheryl-toh-resume-v2">
+            <Router basename="/">
 
    
                 <div>

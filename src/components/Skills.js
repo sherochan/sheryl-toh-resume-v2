@@ -6,6 +6,11 @@ import { NumExperience } from "./NumExperience.js"
 // const trackingId = 'UA-131338203-2'
 // ReactGA.initialize(trackingId);
 
+function NewlineText(props) {
+    const text = props.text;
+    return text.split('\n').map(str => <p>{str}</p>);
+  }
+
 export class SkillsPage extends React.Component{
     constructor(props) {
         super(props);
@@ -28,7 +33,8 @@ export class SkillsPage extends React.Component{
                             skillName={"Amazon Web Services (AWS)"} 
                             yearsActive={"2019 - "}
                             nYears={0}
-                            skillsDescription={"Experience in using AWS such as S3, ECR, EC2 for ML pipelines during deployment."}
+                            skillsDescription={<NewlineText text={'Experience in using AWS such as S3, ECR, EC2 for ML pipelines during deployment.\nAWS Certified Cloud Practitioner & AWS Certified Solutions Architect - Associate'} />}
+                            // {'Experience in using AWS such as S3, ECR, EC2 for ML pipelines during deployment.\nAWS Certified Cloud Practitioner and AWS Certified Solutions Architect (Associate).'}
                         />
 
                         <NumExperience 
